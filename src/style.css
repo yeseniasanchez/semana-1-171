@@ -1,24 +1,156 @@
 body{
+        
     font-family: Arial, Helvetica, sans-serif;
-    width: 1200px;
+    width: 100%;
 }
 
 .header{
-    background-color:blue ;
-}
+	margin: 20px;
+    }
 
 .barra-superior{
-    display: flex;     
+    display: flex; 
+    align-items: center;  
+    height: 100%;  
 }
 
-.contenedor-menu{
+.titulo-principal, .contenedor-menu{
+    width: 100%;
 
 }
 
 .menu-principal{
     display: flex;
+    list-style: none;
+    justify-content: space-evenly;
 }
 
-..menu-principal__item{
+.menu-principal__item >a{
+    text-decoration: none;
+
 
 }
+.menu-principal__item >a:hover{
+    font-size: 20px;
+    text-decoration: underline;
+
+}
+.banner{
+    display:flex;
+    justify-content:center;
+    align-items:flex-start;
+}
+.banner__imagen{
+    
+}
+.banner__titulo{
+    position:absolute;
+    color:white;
+    right: 40%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 35px;
+    font-weight:800;
+    font-stretch: narrower;
+    
+}
+/* AQUI EMPIEZA SERVICIOS */
+.servicios{
+    background-color: rgb(190, 238, 238);
+    display: flex;
+    justify-content: space-evenly ;
+    text-align: center;
+    margin-bottom: 40px;
+    padding: 20px;
+
+}
+.titulo{
+    text-align: center;
+    color: green;
+}
+.parrafo{
+    text-align: center;
+    color: black;
+}
+/* AQUI TERMINA SERVICIOS */
+
+/* AQUI EMPIEZA LO DE NOTICIAS */
+.newsp-image{
+    margin: 10px 0;
+    padding: 0 20px;
+    color: white;
+}
+
+.newsp-text2 > span.newsp-url{
+    text-align: left;
+}
+
+.info{
+    width: 100%;
+    background-color: #CED6F9;
+    height: 100px;
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    padding: 10px;
+}
+
+.info2{
+    width: 100%;
+    background-color: #CED6F9;
+    height: 100px;
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    padding: 10px;
+}
+
+
+.info-text{
+    color: rgb(255, 255, 255);
+    text-align: justify;
+    width: 100%;
+    padding: 0;
+}
+
+/* AQUI TERMINA LO DE NOTICIAS */
+
+
+/* AQUI EMPIEZA LO DE MIEMBRO */
+
+.miembros{
+    width: auto;
+    height: auto;
+    background-color: cornflowerblue;
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.miembro__imagen{
+    display: block;
+    margin: auto;
+    margin-top: 3%;
+    width: 200px;
+    height: 300px;
+}
+
+.miembro__nombre{
+    color: gold;
+    text-align: center;
+}
+
+.miembro__description{
+    color: ghostwhite;
+    margin-left: 20%;
+    margin-right: 20%;
+    text-align: left;
+}
+.miembro__description-2{
+    width: 300px;
+    color: ghostwhite;
+    margin-left: 20%;
+    margin-right: 5%;
+    text-align: left;
+}
+
+/* AQUI TERMINA LO DE MIEMBRO */
