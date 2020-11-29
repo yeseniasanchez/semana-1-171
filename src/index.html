@@ -5,7 +5,91 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mi primera pagina web</title>
 </head>
+<style>
+    body{
+        
+    font-family: Arial, Helvetica, sans-serif;
+    width: 1200px;
+}
+
+.header{
+    }
+
+.barra-superior{
+    display: flex; 
+    align-items: center;  
+    height: 100px;  
+}
+
+.titulo-principal, .contenedor-menu{
+    width: 50%;
+
+}
+
+.menu-principal{
+    display: flex;
+    list-style: none;
+    justify-content: space-evenly;
+}
+
+.menu-principal__item >a{
+    text-decoration: none;
+
+
+}
+.menu-principal__item >a:hover{
+    font-size: 20px;
+    text-decoration: underline;
+
+}
+.banner{
+    display:flex;
+    justify-content:center;
+    align-items:flex-start;
+}
+.banner__imagen{
+    
+}
+.banner__titulo{
+    position:absolute;
+    color:white;
+    right: 40%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 35px;
+    font-weight:800;
+    font-stretch: narrower;
+    
+}
+
+    }
+</style>
 <body>
+    <header class="header">
+        <section class="barra-superior">
+            <div class="titulo-principal">
+                <img src="images/logo.png" alt="imagen logo" width="150" height="150">
+            </div>
+            <nav class="contenedor-menu">
+                <ul class="menu-principal">
+                    <li class="menu-principal__item"><a href="#">Inicio</a></li>
+                    <li class="menu-principal__item"><a href="#services">Servicios</a></li>
+                    <li class="menu-principal__item"><a href="#news">Noticias</a></li>
+                    <li class="menu-principal__item"><a href="#team">Miembros</a></li>
+                </ul>              
+            
+            </nav>
+
+        </section>
+        <section class="banner">
+            <h2 class="banner__titulo">ALWAYS INNOVATING</h2>
+            <img class="banner__imagen" src="images/image1.jpg" alt="imagen banner" width="1200" height="300">
+
+        </section>
+
+    </header>
+    <main>
+        
+    </main>
 
 </body>
 </html>
