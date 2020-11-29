@@ -3,71 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css" />
     <title>Mi primera pagina web</title>
 </head>
-<style>
-    body{
-        
-    font-family: Arial, Helvetica, sans-serif;
-    width: 1200px;
-}
-
-.header{
-    }
-
-.barra-superior{
-    display: flex; 
-    align-items: center;  
-    height: 100px;  
-}
-
-.titulo-principal, .contenedor-menu{
-    width: 50%;
-
-}
-
-.menu-principal{
-    display: flex;
-    list-style: none;
-    justify-content: space-evenly;
-}
-
-.menu-principal__item >a{
-    text-decoration: none;
-
-
-}
-.menu-principal__item >a:hover{
-    font-size: 20px;
-    text-decoration: underline;
-
-}
-.banner{
-    display:flex;
-    justify-content:center;
-    align-items:flex-start;
-}
-.banner__imagen{
-    
-}
-.banner__titulo{
-    position:absolute;
-    color:white;
-    right: 40%;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 35px;
-    font-weight:800;
-    font-stretch: narrower;
-    
-}
-
-    }
-</style>
 <body>
     <header class="header">
         <section class="barra-superior">
             <div class="titulo-principal">
-                <img src="images/logo.png" alt="imagen logo" width="150" height="150">
+                <img src="images/logo.png" alt="imagen logo" width="280" height="80">
             </div>
             <nav class="contenedor-menu">
                 <ul class="menu-principal">
@@ -75,21 +18,247 @@
                     <li class="menu-principal__item"><a href="#services">Servicios</a></li>
                     <li class="menu-principal__item"><a href="#news">Noticias</a></li>
                     <li class="menu-principal__item"><a href="#team">Miembros</a></li>
-                </ul>              
-            
+                </ul>
             </nav>
 
         </section>
         <section class="banner">
             <h2 class="banner__titulo">ALWAYS INNOVATING</h2>
-            <img class="banner__imagen" src="images/image1.jpg" alt="imagen banner" width="1200" height="300">
+            <img class="banner__imagen" src="images/image1.jpg" alt="imagen banner" width="100%" height="300">
 
         </section>
 
     </header>
     <main>
+
+<!-- AQUI EMPIEZA LO DE SERVICIOS -->
+        <section id="services"class="servicios">
+            <div >
+                
+                    <img src="./images/1.jpg" alt="">
+                    <div>
+                        <h2 class="titulo">Mantenimiento Preventivo</h2>
+                    <p class="parrafo">
+                        Se realiza una Verificación y calibración continúa de equipos. Visita regular de diagnóstico horas de trabajo. Para el desarrollo de nuestra labor contamos con un equipo de trabajo profesional en Ingeniería Biomédica, Ingeniería electrónica, Tecnología en Mantenimiento de equipos Biomédicos y técnicos en electrónica. 
+                    </p>
+                    <a href="#">Leer mas >></a>
+                    </div>
+                
+            </div>
+            <!-- fin mantenimiento preventivo sección 1 -->
+            <div>
+                <img src="./images/2.jpg" alt="">
+                <div>
+                    <h2 class="titulo" >Mantenimiento Correctivo</h2>
+                <p class="parrafo">
+                    Nuestro departamento de Ingeniería y mantenimiento se encuentra conformado por personal altamente comprometido y capacitado, para brindarle a usted la mejor experiencia de servicio, donde se realiza diagnostico verídico a daños, intervención oportuna local o contratada-Repuestos.
+                </p>
+                <a href="#">Leer mas >></a>
+                </div>
+            </div>
+            <!-- Fin mantenimiento correctivo sección 2 -->
+
+            <div>
+                <img src="./images/3.jpg" alt="">
+                <div>
+                    <h2 class="titulo">Tecnología Biomedica</h2>
+                <p class="parrafo">
+                   Suministro de Tecnología Biomédica, Importación de Equipos, Dotación para Clínicas y universidades,administración y Servicio Post-venta. Capacitación: Capacitación técnica del manejo y TECNOVIGILANCIA de la tecnología médica.Respaldo y Garantía.
+                </p>
+                <a href="#">Leer mas >></a>
+                <div>
+            </div>
+            <!-- suministro sección 3 -->
+        </section>
+<!-- AQUI TERMINA LO DE SERVICIOS -->
+<!-- AQUI EMPIEZA LO DE NOTICIAS -->
+        <divn id="news" class="news">
+            <p class="section-text">LO ÚLTIMO EN INVESTIGACIÓN Y TECNOLOGÍA MÉDICA</p>
+            <div class="section-news">
+
+                <div class="newsp">
+                    <div class="newsp-data">
+                        <div class="newsp-image">
+                            <img src="https://img.medicalexpo.com/images_me/projects/images-g/smartphone-dongle-cancer-biomarker-measurement-35017-16057817.jpg" width="170" height="150" />
+                            
+                        </div>
+                        <div class="newsp-text">
+                            <p class="newsp-info" ></p><b>Dongle de teléfono inteligente para la medición de biomarcadores de cáncer</b></p>
+                            <hr>
+                            <p class="newsp-info" style="margin:0; padding:0;">Denominado ensayo electroquímico de código de barras biológico, 
+                                el dispositivo podría usarse para medir una variedad de marcadores de salud en el hogar y es similar a los 
+                                dispositivos que usan los pacientes con diabetes para medir los niveles de glucosa en sangre</p>
+                            <span class="newsp-url"><a href="https://trends.medicalexpo.com/project-435017.html">Seguir leyendo noticia >></a></span>
+                        </div>
+                    </div>
+                    <div class="newsp-data">
+                        <div class="newsp-image">
+                           
+                            <img src="https://medtechasia.in/wp-content/uploads/2020/11/printing-heart-696x501.png" width="170" height="150" />
+                            
+                        </div>
+                        <div class="newsp-text">
+                            <p class="newsp-info" ></p><b>Corazones humanos impresos en 3D que replican tejido cardíaco</b></p>
+                            <hr>
+                            <p class="newsp-info" style="margin:0; padding:0;">Un equipo de la Universidad Carnegie Mellon
+                                 ha logrado imprimir un modelo 3D del corazón de un paciente utilizando alginato, derivado
+                                  de algas marinas, que reproduce fielmente cómo se siente realmente el tejido cardíaco.</p>
+                                  <span class="newsp-url"><a href="https://medtechasia.in/3d-printed-human-hearts-replicates-cardiac-tissue/"> Seguir leyendo noticia >></a></span> </div>
+                    </div>
+                </div>
+                <div class="newsp">
+                    <div class="newsp-data">
+
+                        <div class="newsp-image">
+                            <img src=" https://opedge.com/Content/OldArticles/images/2016-10/2016-10_01-04.jpg" width="170" height="150" />
+
+                        </div>
+                        <div class="newsp-text">
+                            <h2 class="newsp-title">De la mano básica a la tecnología audaz</h2>
+                            <hr>
+                            <p class="newsp-info" style="margin:0; padding:0;">Ya sea que se vean a sí mismos como de alta tecnología, 
+                                biónicos o cyborg, muchos usuarios de prótesis de extremidades superiores se sienten afortunados de 
+                                estar a la vanguardia de las tecnologías avanzadas.</p>
+                                <span class="newsp-url"><a href="https://opedge.com/Articles/ViewArticle/2016-09-22/2016-10_01"> Seguir leyendo noticia >></a></span> </div>
+                    </div>
+                    <div class="newsp-data">
+
+                        <div class="newsp-image">
+                            <img src="https://www.medgadget.com/wp-content/uploads/2020/10/ACS-image.jpg" width="170" height="150" />
+                        </div>
+                        <div class="newsp-text">
+                            <p class="newsp-info" ></p><b> Sensores corporales impresos directamente en la piel</b> </p>
+                            <hr>
+                            <p class="newsp-info" style="margin:0; padding:0;">Investigadores de la Universidad Estatal de Pensilvania e
+                                 instituciones chinas han desarrollado una forma de imprimir sensores electrónicos, Con dicha técnica, han creado 
+                                sensores de oxígeno en sangre, ECG, temperatura y humedad directamente en la piel.
+                            </p>
+                            <span class="newsp-url"><a href="https://www.medgadget.com/2020/10/body-sensors-printed-directly-on-skin-at-room-temperature.html"> Seguir leyendo noticia >></a></span> </div>
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+
+
+
+
+<!-- AQUI EMPIEZA LO DE MIEMBROS -->
+
+        <section id="team" class="miembros">
+            <div>
+              <img
+                class="miembro__imagen"
+                src="./images/ndml.jpg"
+                alt="imagen miembro"
+              />
+              <h2 class="miembro__nombre">Neiry Dayan Martinez Lara</h2>
+              <p class="miembro__description">
+                Institucion Educativa: Universidad Manuela Beltran.  
+              </p>
+              <p class="miembro__description">
+                Edad: 22años.
+              </p>
+              <p class="miembro__description">
+                Pasatiempos:
+                Jugar fútbol y ver series.
+              </p>
+            </div>
+            <div>
+              <img
+                class="miembro__imagen"
+                src="./images/cyms.jpg"
+                alt="imagen miembro"
+              />
+              <h2 class="miembro__nombre">Cristian Yesid Marin Santamaria</h2>
+              <p class="miembro__description">
+                Institucion Educativa: Universidad Central.
+                
+                
+                <p class="miembro__description">
+                    Edad: 31 años.
+                </p>
+                <p class="miembro__description-2">
+                    Pasatiempos: Practica deportes, como el futbol de salón y el
+                    baloncesto, le gusta ir al cine con su familia. Actualmente estudian
+                    en el programa Misión TIC 2022.
+                </p>
+              </p>
+            </div>
+            <div>
+              <img
+                class="miembro__imagen"
+                src="./images/yss.jpg"
+                alt="imagen miembro"
+              />
+              <h2 class="miembro__nombre">Yesenia Sánchez Sánchez</h2>
+              <p class="miembro__description">
+                Institucion Educativa: Universidad del Valle.  
+              </p>
+              <p class="miembro__description">
+                Edad: 33 años.
+              </p>
+              <p class="miembro__description">
+                Pasatiempos:
+                Viajar.
+              </p>
+            </div>
+            <div>
+              <img
+                class="miembro__imagen"
+                src="./images/jcba.jpg"
+                alt="imagen miembro"
+              />
+              <h2 class="miembro__nombre">Juan Camilo Bazurto Arias</h2>
+              <p class="miembro__description-2">
+                Institucion Educativa: Escuela Colombiana de Ingenieria Julio Garavito.
+              </p>
+              <p class="miembro__description">
+                Edad: 19
+                años.
+              </p>
+              <p class="miembro__description">
+                Pasatiempos: Leer, hacer ejercicio y practicar futbol.
+              </p>
+            </div>
+        </section>
         
+<!-- AQUI TERMINA LO DE MIEMBROS -->
+
     </main>
+
+    <footer class="footer">
+            <p class="section-text">Section Footer</p>
+                <div class="info">
+                    <div><p class= "info-text" ><p><b> Integrantes: Neiry Dayan Martinez Lara-Sección 3 y 5,
+                       Yesenia Sanchez Sanchez - Sección 1,Juan Camilo Bazurto -Sección4 y 
+                        Cristian Yesid Marin Santamaria-Sección2
+                    </p>
+                    <span class="newsp-url"><a href=" https://github.com/yeseniasanchez/semana-1-171"> link de Gibhub de click aqui >></a></span> </div>
+                          
+                    </div>     
+                   
+                
+                    <div class="info2"><p class="newsp-text2"><p><b> Contactese para mayor informacion en: </b>
+                        tel:6989898, biom_solutions@biomedical.net.co</p>
+                        
+                        <p class="newsp-text"></p><p><b>Biomedical S.A.S </b>
+                            Es una empresa dedicada al servicio y mejoramiento de procesos internos 
+                            y externos en gestion hospitalaria, cronogramas de mantenimiento y desarrrollo 
+                            de sofware enfocado a garantizar altos estandares de calidad en salud, tanto 
+                            para el prestador de salud como para sus usuarios
+                               </p>
+
+
+                    </div>  
+                </div>   
+                   
+                </div>
+
+
+        </footer>
+<!-- AQUI TERMINA LO DE NOTICIAS -->
 
 </body>
 </html>
