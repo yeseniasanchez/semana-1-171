@@ -1,0 +1,35 @@
+.miembros{
+    width: auto;
+    height: auto;
+    background-color: cornflowerblue;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+.miembro__imagen{
+    display: block;
+    margin: auto;
+    margin-top: 3%;
+    width: 200px;
+    height: 300px;
+}
+
+.miembro__nombre{
+    color: gold;
+    text-align: center;
+}
+
+.miembro__description{
+    color: ghostwhite;
+    margin-left: 20%;
+    margin-right: 20%;
+    text-align: left;
+}
+.miembro__description-2{
+    width: 300px;
+    color: ghostwhite;
+    margin-left: 20%;
+    margin-right: 5%;
+    text-align: left;
+}
