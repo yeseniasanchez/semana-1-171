@@ -1,20 +1,19 @@
-# Proyecto final Sprint I
+# Proyecto final semana 1 ciclo 3 grupo 171
+En este proyecto se desarrolla un sitio web que conste de 5 secciones, donde los elementos del sitio web son realizados con el estilo personalizado por cada uno de los miembros del grupo (171).
 
-Desarrollar un sitio web que conste de 5 secciones, cada sección deberá ser realizada por un estudiante. Los diferentes elementos del sitio web contarán con estilos personalizados creados por los estudiantes y deberán estar condensados en una sola hoja de estilos.
+## The Project
+Este proyecto fue realizado por: Neiry Dayan Martinez Lara, Yesenia Sánchez Sánchez, Cristian Yesid Marin Santamaria y Juan Camilo Bazurto Arias
 
-Para iniciar con el desarrollo del sitio web, los estudiantes deberán definir previamente aspectos como ancho del sitio (mínimo 1200px), la información a presentar en el sitio web, diseñar un mockup, borrador o bosquejo, también descargar, diseñar o crear los recursos a utilizar como imágenes, iconos, logos, entre otros y finalmente asignar responsable a cada sección.
-
-El proyecto, deberá manejarse versionado en un repositorio remoto en github, en el que los diferentes miembros del equipo deben tener acceso, no se permite el push directo a las ramas Dev o Master.
+> CICLO 3 DE FORMACIÓN: DESARROLLO DE SOFTWARE
 
 ## Secciones
+Sección superior o header: fue realizada por la compañera Yesenia Sánchez, donde establece un título principal (h1) el logo de la compañía y un menú principal con los items Inicio, Servicios, Noticias, y Miembros con enlace a las respectivas secciones dentro la página, además se adiciona un banner de ancho de la página (1200 px) con un texto tipo h2 centrado dentro de este.
 
-- Sección superior, cabecera o header: esta sección deberá contar con el menú de navegación a tres páginas internas del sitio web y su respectivo enlace al inicio. Debe contar con una imagen que ocupe el ancho del sitio.
-  El menú debe de estar en un tag `<nav></nav>`.
-- Sección de servicios: aquí los estudiantes deberán dividir en ancho del sitio en 3 partes y en cada parte se deberá incluir un servicio. Cada servicio debe contar con una breve descripción, un logo, ícono o imagen que lo identifique y un enlace al detalle de los servicios. El elemento donde están los servicios debe de tener un `id=”services”`
-- Sección de noticias: El estudiante encargado de la sección de noticias, deberá dividir el ancho del sitio web en 2 filas y dos columnas para presentar 4 noticias. Cada noticia debe contar con un resumen, una imagen y un enlace a leer la noticia completa.
-  El elemento donde están los servicios debe de tener un `id=”news”`
+Sección de servicios: El estudiante Cristian Marín, divide esta sesión en 3 partes (con el comando div), una parte de mantenimiento Preventivo de equipos biomédicos, otra parte de mantenimiento correctivo y finalmente una parte de suministros de equipos biomédicos. Cada servicio tiene una imagen (img src), un título ( <h2>), con una breve descripción (<p>) y un enlace al detalle de los servicios(a href). El elemento de los servicios tiene como id=”services”.
 
-- Sección de equipo: El estudiante deberá dividir el ancho del sitio entre el número de participantes del equipo e incluir junto con cada uno una foto o imagen, el nombre y algún dato como la institución educativa, edad, pasatiempo, entre otros.
-  El elemento donde están los servicios debe de tener un `id=”team”`
+Sección de noticias: La compañera Neiry Dayan realiza esta sección mostrando al usuario cuatro noticias en un cuadro 2x2. Para esto se realizan dos divisiones div class newsp concatenadas a dos secciones div class newsp-data. Por cada celda podrá visualizar la imagen de la noticia a la izquierda (usando comando img) y el contenido de la noticia a la derecha con los siguientes items:  título de la noticia (tipo h2), resumen (tipo parrafo) e hipervínculo (tipo href) donde podrá tener acceso a la noticia completa. El elemento de las noticias tiene como id=” news”.
 
-- Sección Footer o pie del sitio: el estudiante deberá crear el pie del sitio web en donde se incluye información de contacto, deberá estar dividido en dos partes, en una se tendrá la información del sitio web como el motivante del desarrollo y el enlace al repositorio de github, y en la otra los contacto de los miembros del equipo con sus nombres y roles. La sección debe de estar en un tag <footer></footer>
+Sección de equipo: Realizada por Juan Camilo, Donde para cada miembro utiliza un div con que respectiva imagen un título tipo h2 y una descripción p y clase miembros para la sección y para la imagen con la metodología miembros_img, miembrosnombre, miembros_description. El elemento de las noticias tiene como id=” team”. 
+
+Sección Footer: en esta sección la compañera Neiry se deja la información relacionada en la parte superior a los autores e hipervínculo al contenido del código en HTML haciendo uso del comando div y Href respectivamente. En la parte inferior de la página contiene el propósito de la página y contenido relacionado con información de contacto a los desarrolladores de la página usando CSS para cambiar el fondo y ubicación del texto. Esta sesión está en un tag <footer></footer>
+

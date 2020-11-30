@@ -5,7 +5,7 @@ body{
 }
 
 .header{
-	margin: 20px;
+    margin: 0px;
     }
 
 .barra-superior{
@@ -16,7 +16,7 @@ body{
 
 .titulo-principal, .contenedor-menu{
     width: 100%;
-
+    
 }
 
 .menu-principal{
@@ -26,13 +26,19 @@ body{
 }
 
 .menu-principal__item >a{
-    text-decoration: none;
+    text-decoration: blink;
+    font-size: 20px;
+    background-color:#cfd3e7;
+    background-size: contain;
+    color: grey;
 
 
 }
 .menu-principal__item >a:hover{
-    font-size: 20px;
+    font-size: 30px;
     text-decoration: underline;
+    
+    
 
 }
 .banner{
@@ -53,9 +59,11 @@ body{
     font-stretch: narrower;
     
 }
+
+
 /* AQUI EMPIEZA SERVICIOS */
 .servicios{
-    background-color: rgb(190, 238, 238);
+    background-color: #cfd3e7;
     display: flex;
     justify-content: space-evenly ;
     text-align: center;
@@ -74,42 +82,76 @@ body{
 /* AQUI TERMINA SERVICIOS */
 
 /* AQUI EMPIEZA LO DE NOTICIAS */
+.news{
+    margin: 10px;
+    padding: 20px;
+    color: black;
+    text-align: center;
+    font-style: italic;
+    
+}
+
+.newsp{
+    width: 100%;
+    background-color:;
+    height: 80%;
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+}
+
+.newsp > div:first-child{
+    margin: 0px;
+}
+
+.newsp-data{
+    width: 49%;
+    height: 100%;
+    background-color: white;
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex; 
+}
+
 .newsp-image{
-    margin: 10px 0;
-    padding: 0 20px;
+    margin: 10px;
+    padding: 20px;
     color: white;
 }
 
-.newsp-text2 > span.newsp-url{
+.newsp-text{
+    color: #A0AFFA;
+    text-align: justify;
+    width: 60%;
+    padding: 10px;
+}
+
+.newsp-text > span.news-url{
+    text-align: right;
+    
+}
+.newsp-text2 > span.news-url{
     text-align: left;
 }
 
-.info{
-    width: 100%;
-    background-color: #CED6F9;
-    height: 100px;
-    display: -webkit-inline-box;
-    display: -ms-inline-flexbox;
-    display: inline-flex;
-    padding: 10px;
-}
 
-.info2{
-    width: 100%;
-    background-color: #CED6F9;
-    height: 100px;
-    display: -webkit-inline-box;
-    display: -ms-inline-flexbox;
-    display: inline-flex;
-    padding: 10px;
+.fa-ambulance.newsp-logo{
+    padding: 0.25em;
 }
 
 
-.info-text{
-    color: rgb(255, 255, 255);
-    text-align: justify;
-    width: 100%;
-    padding: 0;
+.newsp-url{
+    font-size: 20px;
+    float: right;
+}
+
+.newsp-url > a{
+
+    color: #8f8c8c; 
+}
+
+hr{
+    color: white;
 }
 
 /* AQUI TERMINA LO DE NOTICIAS */
@@ -120,7 +162,7 @@ body{
 .miembros{
     width: auto;
     height: auto;
-    background-color: cornflowerblue;
+    background-color: #cfd3e7;
     display: flex;
     justify-content: space-around;
 }
@@ -135,22 +177,60 @@ body{
 }
 
 .miembro__nombre{
-    color: gold;
+    color: grey;
     text-align: center;
 }
 
 .miembro__description{
-    color: ghostwhite;
+    color: #2E5763;
     margin-left: 20%;
     margin-right: 20%;
     text-align: left;
 }
 .miembro__description-2{
     width: 300px;
-    color: ghostwhite;
+    color: #2E5763;
     margin-left: 20%;
     margin-right: 5%;
     text-align: left;
 }
 
+
 /* AQUI TERMINA LO DE MIEMBRO */
+
+/* AQUI EMPIEZA FOOTER*/
+.news-text2 > span.news-url{
+    text-align: justify;
+}
+
+.info{
+    width: 100%;
+    background-color: rgb(204, 204, 207);
+    height: 100px;
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    color: #2E5763;
+    text-align: justify;
+}
+
+.info2{
+    width: 100%;
+    background-color:rgb(156, 156, 158);
+    height: 100px;
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    color: #2E5763;
+    text-align: justify;
+}
+
+
+.info-text{
+    color: rgb(255, 255, 255);
+    text-align: justify;
+    width: 100%;
+    padding: 0;
+}
+
+
